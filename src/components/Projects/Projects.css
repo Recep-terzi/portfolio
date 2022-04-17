@@ -4,13 +4,18 @@
 
 .card button {
   padding: 12px;
-
-  background-color: #000;
+  background-color: transparent;
+  border:none;
   text-align: center;
   cursor: pointer;
 
   font-size: 18px;
 }
+.card a{
+  background-color: black;
+}
 button a {
   background-color: transparent;
+  
 }
+
