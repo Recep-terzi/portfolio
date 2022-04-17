@@ -28,12 +28,12 @@ class Navbar extends Component {
                             </li>
                         )
                     })}
-                    <a href="/">
+                    <Link to="/">
                         <img src="https://cdn-icons-png.flaticon.com/512/197/197374.png" alt="" style={{width:"30px"}}/>
-                        <a href="/hometr">
+                        <Link to="/hometr">
                             <img src="https://cdn-icons-png.flaticon.com/512/3909/3909414.png" alt="" style={{width:"30px",marginLeft:"10px"}}/>
-                        </a>
-                    </a>
+                        </Link>
+                    </Link>
                     
                     
                 </ul>
