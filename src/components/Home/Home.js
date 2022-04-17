@@ -18,7 +18,7 @@ const Home = () => {
     
     <>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
-      <div class="container">
+      <div class="container" style={{marginTop:"8%"}}>
         <div class="row justify-content-center margins-setting">
           <div class="col-sm">
             <img src="/rt.gif"  alt=""  className="img-fluid rounded" />
