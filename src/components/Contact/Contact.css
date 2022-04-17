@@ -1,0 +1,30 @@
+.btn-set {
+  background-color: red;
+  border: none;
+}
+.btn-set:hover {
+  background-color: black;
+  border: 1px solid #fff;
+}
+@media screen and (max-width: 960px) {
+  .margin-setting {
+    position: relative; 
+  }
+  .margin-settings{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+  }
+  .cent{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    
+    position: absolute;
+  }
+  .img-set{
+      display: flex;
+      position: absolute;
+  }
+}

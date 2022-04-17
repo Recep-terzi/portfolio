@@ -1,0 +1,8 @@
+$phone : 768px;
+.container{
+    .col-sm{
+        @media (max-width:$phone){
+            font-size: 50px;
+        }
+    }
+}
