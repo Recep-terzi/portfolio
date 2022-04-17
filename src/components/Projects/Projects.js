@@ -1,6 +1,7 @@
 import React from "react";
 import items from "../data";
 import "./Projects.css";
+
 const Projects = () => {
   return (
     <>
@@ -27,8 +28,8 @@ const Projects = () => {
                     </p>
                    
                   </div>
-                  <button class="btn btn-outline-danger text-white a">
-                      <a href={url} className="text-decoration-none text-white bg-none rounded a" >Show Project</a>
+                  <button class="btn btn-outline-danger text-white a" >
+                      <a href={url} className="text-decoration-none text-white bg-none rounded " target="_blank" >Show Project</a>
                   </button>
                 </div>
               </div>
