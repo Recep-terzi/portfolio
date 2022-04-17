@@ -29,7 +29,7 @@ const Projects = () => {
                   </div>
                   
                   <button class="btn btn-outline-danger text-white a"  >
-                      <a href={url} className="text-decoration-none text-white bg-none rounded " target={"_blank"} rel="noopener noreferrer">Show Project</a>
+                      <a href={url} className=" text-white bg-none rounded "target="_blank" rel="noopener noreferrer" >Show Project</a>
                   </button>
                 </div>
               </div>
