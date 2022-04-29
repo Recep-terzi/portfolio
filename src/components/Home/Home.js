@@ -42,7 +42,7 @@ const Home = () => {
                 active technologies and develop projects related to these
                 technologies.
               </span>
-              <div style={{ marginTop: "30px" }} >
+              <div style={{ marginTop: "30px",textAlign:"center" }} >
                 <a href="https://www.instagram.com/recepterziiii/" >
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
