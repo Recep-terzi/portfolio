@@ -1,0 +1,115 @@
+.work__body {
+    background-color: inherit;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.work__body span:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #374151;
+    margin-bottom: 50px;
+}
+.work__body span:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.work__body p:nth-child(2) {
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+.work__body .work__card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+.work__body .work__card .card__left {
+    background-color: #374151;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
+    margin-bottom: 20px;
+}
+.work__body .work__card .card__left img{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    border-radius: 70px;
+}
+
+.work__body .work__card .card__right{
+    background-color: #1f2937;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 0 20px 20px 0;
+}
+.work__body .work__card .card__right p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.work__body .work__card .card__right p:nth-child(2){
+    font-size: 14px;
+    text-align: start;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+
+.work__body .work__card .card__right .project__material {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 20px;
+        
+}
+.work__body .work__card .card__right .project__material div{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #374151;
+    width: max-content;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+@media screen and (max-width:768px) {
+    .work__body .work__card{
+        display: block;
+        margin-bottom: 0;
+    }
+    .work__body .work__card .card__left {
+        display: block;
+        border-radius: 20px 20px 0 0;
+        margin-bottom: 0;
+    }
+    .work__body .work__card .card__left img{
+        padding: 40px;
+        border-radius: 70px;
+    }
+    
+    .work__body .work__card .card__right{
+        padding: 30px;
+        border-radius: 0 0 20px 20px;
+    }
+    .work__body .work__card .card__right .project__material{
+        width: 100%;
+    }
+    .work__body span:last-child{
+        width: 100%;
+    }
+}
