@@ -19,7 +19,7 @@ const Navbar = () => {
             backDelay: 1500,
             startDelay: 100,
             typeSpeed: 50,
-            strings: ["Recep Terzi", "Welcome"],
+            strings: ["Welcome", "Recep Terzi", "Frontend Developer"],
         });
     }, []);
     return (

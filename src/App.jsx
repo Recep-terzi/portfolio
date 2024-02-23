@@ -20,10 +20,9 @@ function App() {
           <div className="main__left">
             <h1>Hi, I'm Recep 👋</h1>
             <p>
-              Trakya üniversitesi Bilgisayar Teknolojileri ve Bilişim Sistemleri 4.sınıf olarak öğrenim görmekteyim. Aktif olarak kendimi frontend alanında geliştirmekteyim. Günümüzdeki aktif frontend teknolojilerini kullanarak bu alanda her zaman bir seviye ileri geçmek en büyük gayem olmuştur.
-            </p>
+              I am studying as the 4th grade of Computer Technologies and Information Systems at Trakya University. I am a frontend developer who is developing projects. It has always been my biggest goal to go one level further in this field by using today's current frontend technologies.</p>
             <p>
-              Hakkımda daha detaylı bilgi edinmek için aşağıya kaydırabilirsiniz. Teşekkür ederim. :)
+              You can scroll down to learn more about me. Thank you :)
             </p>
             <p>
               <FaLocationDot />
