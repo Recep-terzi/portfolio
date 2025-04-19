@@ -1,8 +1,7 @@
 import React from 'react'
 import './About.Module.css'
 import Container from '../Container/Container'
-import userImage from '../../assets/user.jpeg'
-import { motion } from "framer-motion"
+import userImage from '../../assets/recepterzi.jpg'
 import { Fade } from "react-awesome-reveal";
 const About = () => {
     return (

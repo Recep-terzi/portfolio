@@ -1,7 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import { FaLocationDot, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
-import userImage from './assets/user.jpeg'
+import userImage from './assets/recepterzi.jpg'
 import About from './components/About/About';
 import Container from './components/Container/Container';
 import Skills from './components/Skills/Skills';
