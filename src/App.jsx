@@ -20,7 +20,7 @@ function App() {
           <div className="main__left">
             <h1>Hi, I'm Recep 👋</h1>
             <p>
-              I am studying as the 4th grade of Computer Technologies and Information Systems at Trakya University. I am a frontend developer who is developing projects. It has always been my biggest goal to go one level further in this field by using today's current frontend technologies.</p>
+            Graduated top of the class from Trakya University, Department of Computer Technologies and Information Systems. Since university, I have consistently focused on improving my skills in frontend development through hands-on projects and continuous learning. I specialize in building modern, high-performance web applications using technologies like React, Next.js, and Redux. I value clean, maintainable code and enjoy creating user-centric interfaces with attention to detail and scalability.</p>
             <p>
               You can scroll down to learn more about me. Thank you :)
             </p>

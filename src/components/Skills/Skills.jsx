@@ -13,6 +13,7 @@ import nextjsImage from '../../assets/nextjs.png'
 import figmaImage from '../../assets/figma.png'
 import angularImage from '../../assets/angular.png'
 import gitImage from '../../assets/git.png'
+import typescriptImage from '../../assets/typescript.png'
 const Skills = () => {
     const mySkills = [
         {
@@ -27,7 +28,7 @@ const Skills = () => {
         },
         {
             id: 3,
-            name: 'TailwindCss',
+            name: 'Tailwind CSS',
             image: tailwindImage
         },
         {
@@ -62,15 +63,20 @@ const Skills = () => {
         },
         {
             id: 10,
+            name: 'Typescript',
+            image: typescriptImage
+        },
+        {
+            id: 11,
             name: 'Angular',
             image: angularImage
         }, {
-            id: 11,
+            id: 12,
             name: 'Figma',
             image: figmaImage
         },
         {
-            id: 12,
+            id: 13,
             name: 'Git',
             image: gitImage
         },
