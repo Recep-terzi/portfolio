@@ -1,12 +1,15 @@
 import React from 'react'
 import './Work.Module.css'
 import Container from '../Container/Container'
-import dietApp from '../../assets/dietapp.png'
-import tusecApp from '../../assets/tusecapp.png'
-import swapApp from '../../assets/swapapp.png'
-import difoApp from '../../assets/difo.png'
-import memeApp from '../../assets/memelaunchpad.png'
+import dietApp from '../../assets/dietapp2.jpg'
+import tusecApp from '../../assets/tusec2.jpg'
+import swapApp from '../../assets/swapapp2.jpg'
+import difoApp from '../../assets/difo2.jpg'
+import memeApp from '../../assets/meme2.jpg'
 import linguetaApp from '../../assets/lingueta2.png'
+import xyzApp from '../../assets/xyz-banner.jpg'
+import sigortaApp from '../../assets/sigortacilardunyasi-banner.jpg'
+import craftsteelApp from '../../assets/craftsteel-banner.jpg'
 
 const Work = () => {
     const myWork = [
@@ -19,6 +22,7 @@ const Work = () => {
             projectMaterial: [
                 "HTML",
                 "CSS",
+                "Tailwind CSS",
                 "Javascript",
                 "React",
                 "Next.js",
@@ -39,13 +43,15 @@ const Work = () => {
                 "HTML",
                 "CSS",
                 "Javascript",
+                "Tailwind CSS",
                 "React",
                 "Redux",
                 "Next.js",
                 "Typescript",
                 "Zod",
                 "Figma",
-                "Web Socket"
+                "Web Socket",
+                "Blockchain"
             ]
         },
         {
@@ -57,6 +63,7 @@ const Work = () => {
             projectMaterial: [
                 "HTML",
                 "CSS",
+                "Tailwind CSS",
                 "Javascript",
                 "React",
                 "Redux",
@@ -64,7 +71,8 @@ const Work = () => {
                 "Typescript",
                 "Zod",
                 "Figma",
-                "Web Socket"
+                "Web Socket",
+                "Blockchain"
             ]
         },
         {
@@ -110,6 +118,51 @@ const Work = () => {
                 "Redux",
                 "Figma",
                 "Firebase"
+            ]
+        },
+        {
+            id: 7,
+            projectImage: xyzApp,
+            projectTitle: "XYZ Mobile App",
+            projectInfo: "The figma UI Design shared with me in this project, which comes as a freelance job, is professionally coded as pixel-perfect to the finest detail.",
+            projectMaterial: [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "React",
+                "Redux",
+                "Figma",
+                "Pixel Perfect"
+            ]
+        },
+        {
+            id: 8,
+            projectImage: sigortaApp,
+            projectTitle: "Sigortacılar Dünyası App",
+            projectInfo: "The figma UI Design shared with me in this project, which comes as a freelance job, is professionally coded as pixel-perfect to the finest detail.",
+            projectMaterial: [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "React",
+                "Redux",
+                "Figma",
+                "Pixel Perfect"
+            ]
+        },
+         {
+            id: 9,
+            projectImage: craftsteelApp,
+            projectTitle: "Craftsteel App",
+            projectInfo: "The figma UI Design shared with me in this project, which comes as a freelance job, is professionally coded as pixel-perfect to the finest detail.",
+            projectMaterial: [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "React",
+                "Redux",
+                "Figma",
+                "Pixel Perfect"
             ]
         }
     ]
