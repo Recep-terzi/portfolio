@@ -6,7 +6,7 @@ import tusecApp from '../../assets/tusecapp.png'
 import swapApp from '../../assets/swapapp.png'
 import difoApp from '../../assets/difo.png'
 import memeApp from '../../assets/memelaunchpad.png'
-import linguetaApp from '../../assets/lingueta.png'
+import linguetaApp from '../../assets/lingueta2.png'
 
 const Work = () => {
     const myWork = [
