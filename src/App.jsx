@@ -9,41 +9,61 @@ import Experience from './components/Experience/Experience';
 import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 import { Slide } from "react-awesome-reveal";
+import { useEffect } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Admin from './pages/admin/Admin';
+import Login from './pages/login/Login';
 
-function App() {
- 
+function Main() {
   return (
     <>
-      <Navbar />
-      <Container>
-        <div className="main">
-          <div className="main__left">
-            <h1>Hi, I'm Recep 👋</h1>
-            <p>
-            Graduated top of the class from Trakya University, Department of Computer Technologies and Information Systems. Since university, I have consistently focused on improving my skills in frontend development through hands-on projects and continuous learning. I specialize in building modern, high-performance web applications using technologies like React, Next.js, and Redux. I value clean, maintainable code and enjoy creating user-centric interfaces with attention to detail and scalability.</p>
-            <p>
-              You can scroll down to learn more about me. Thank you :)
-            </p>
-            <p>
-              <FaLocationDot />
-              Kocaeli, Darıca
-            </p>
-            <div className="social">
-              <a href="https://github.com/Recep-terzi" target='_blank'><FaGithub /></a>
-              <a href="https://www.linkedin.com/in/recepterzi/" target='_blank'><FaLinkedin /></a>
-              <a href="https://www.instagram.com/recepterziiii/" target='_blank'><FaInstagram /></a>
+      <>
+        <Navbar />
+        <Container>
+          <div className="main">
+            <div className="main__left">
+              <h1>Hi, I'm Recep 👋</h1>
+              <p>
+                Graduated top of the class from Trakya University, Department of Computer Technologies and Information Systems. Since university, I have consistently focused on improving my skills in frontend development through hands-on projects and continuous learning. I specialize in building modern, high-performance web applications using technologies like React, Next.js, and Redux. I value clean, maintainable code and enjoy creating user-centric interfaces with attention to detail and scalability.</p>
+              <p>
+                You can scroll down to learn more about me. Thank you :)
+              </p>
+              <p>
+                <FaLocationDot />
+                Kocaeli, Darıca
+              </p>
+              <div className="social">
+                <a href="https://github.com/Recep-terzi" target='_blank'><FaGithub /></a>
+                <a href="https://www.linkedin.com/in/recepterzi/" target='_blank'><FaLinkedin /></a>
+                <a href="https://www.instagram.com/recepterziiii/" target='_blank'><FaInstagram /></a>
+              </div>
             </div>
-          </div>
-          <div className="main__right">
-            <img src={userImage} alt="" />
-          </div>
-        </div></Container>
-      <Slide cascade><About /></Slide>
-      <Slide cascade><Skills /></Slide>
-      <Slide cascade><Experience /></Slide>
-      <Slide cascade><Work /></Slide>
-      <Slide cascade><Contact /></Slide>
+            <div className="main__right">
+              <img src={userImage} alt="" />
+            </div>
+          </div></Container>
+        <Slide cascade><About /></Slide>
+        <Slide cascade><Skills /></Slide>
+        <Slide cascade><Experience /></Slide>
+        <Slide cascade><Work /></Slide>
+        <Slide cascade><Contact /></Slide>
+      </>
     </>
+  )
+}
+
+function App() {
+
+  return (
+   <>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/admin' element={<Admin />} />
+      </Routes>
+    </BrowserRouter>
+   </>
   )
 }
 

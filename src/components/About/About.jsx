@@ -11,7 +11,7 @@ const About = () => {
                 <Container>
                     <span>About Me</span>
                     <div className="about__main">
-                        <div className="about__left">
+                        <div className="about__left w-full h-full">
                             <img src={userImage} alt='User Image' />
                         </div>
                         <div className="about__right">
