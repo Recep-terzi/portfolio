@@ -23,7 +23,7 @@ const Admin = () => {
         formData.append('projectMaterial', material);
         if (image) formData.append('projectImage', image);
         if (token) {
-            fetch('https://portfolio-backend-ctua.onrender.com/api/projects', {
+            fetch(`${process.env.API_URL}/api/projects`, {
                 method: 'POST',
                 headers: {
                     Authorization: `Bearer ${token}`,
