@@ -12,7 +12,7 @@ app.use(express.json())
 app.use('/api/projects', require('./routes/projects'));
 app.use('/api', require('./routes/auth'));
 
-mongoose.connect('mongodb+srv://recepterzi3467:<db_password>@portfolio.ouw7ypf.mongodb.net/?retryWrites=true&w=majority&appName=portfolio', {
+mongoose.connect('mongodb+srv://recepterzi3467:Zonguldak_67@portfolio.ouw7ypf.mongodb.net/?retryWrites=true&w=majority&appName=portfolio', {
    useNewUrlParser: true,
   useUnifiedTopology: true,
 })

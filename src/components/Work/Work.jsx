@@ -5,7 +5,7 @@ import Container from '../Container/Container'
 const Work = () => {
     const [myWork,setMyWork] = useState()
     useEffect(() => {
-        fetch('http://localhost:5000/api/projects').then(res => res.json()).then(data => setMyWork(data))
+        fetch('https://portfolio-backend-ctua.onrender.com/api/projects').then(res => res.json()).then(data => setMyWork(data))
     },[])
 
     return (

@@ -8,7 +8,7 @@ const AdminLogin = () => {
     const handleSubmit = e => {
         e.preventDefault();
         try {
-            fetch('http://localhost:5000/api/login', {
+            fetch('https://portfolio-backend-ctua.onrender.com/api/login', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
