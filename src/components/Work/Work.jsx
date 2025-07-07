@@ -5,7 +5,7 @@ import Container from '../Container/Container'
 const Work = () => {
     const [myWork,setMyWork] = useState()
     useEffect(() => {
-        fetch(`${process.env.API_URL}/api/projects`).then(res => res.json()).then(data => setMyWork(data))
+        fetch(`${import.meta.env.VITE_API_URL}/api/projects`).then(res => res.json()).then(data => setMyWork(data))
     },[])
 
     return (

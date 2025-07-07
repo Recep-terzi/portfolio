@@ -8,7 +8,7 @@ const AdminLogin = () => {
     const handleSubmit = e => {
         e.preventDefault();
         try {
-            fetch(`${process.env.API_URL}/api/login`, {
+            fetch(`${import.meta.env.VITE_API_URL}/api/login`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
