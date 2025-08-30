@@ -5,7 +5,7 @@ import Container from '../Container/Container';
 import { useEffect } from 'react';
 import { init } from "ityped";
 import { useRef } from 'react';
-import userCv from '../../assets/Recep Terzi - CV.pdf'
+import userCv from '../../assets/Recep Terzi CV.pdf'
 import { IoMenu } from "react-icons/io5";
 import { useState } from 'react';
 import { BottomSheet } from 'react-spring-bottom-sheet'
