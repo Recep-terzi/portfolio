@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './Work.Module.css'
 import Container from '../Container/Container'
+import { MoonLoader } from 'react-spinners'
 
 const Work = () => {
     const [myWork,setMyWork] = useState()
@@ -14,7 +15,7 @@ const Work = () => {
                 <span>Work</span>
                 <p>Some of the noteworthy projects I have built:</p>
                 {
-                  myWork &&  myWork.map(work => (
+                  myWork ?  myWork.map(work => (
                         <a href={work.link ? work.link : ''} target='_blank' className="work__card" key={work.id}>
                             <div className="card__left">
                                 <img src={work.projectImage} alt="" />
@@ -33,7 +34,7 @@ const Work = () => {
                                 </div>
                             </div>
                         </a>
-                    ))
+                    )) : <div style={{margin:'0 auto flex items-center justify-center'}}><MoonLoader /></div>
                 }
             </Container>
             <span>You can visit my github address to check out more of my projects.</span>
